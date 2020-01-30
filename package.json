@@ -1,0 +1,26 @@
+{
+  "name": "social_dbopsmixinslib",
+  "version": "1.0.0",
+  "description": "AllexJS lib with mixins for a DBOperations service",
+  "main": "index.js",
+  "scripts": {
+    "test": "allex-mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/social-libs/dbopsmixins.git"
+  },
+  "keywords": [
+    "ecosystem:AllexJS",
+    "social",
+    "dbops",
+    "mixins",
+    "lib"
+  ],
+  "author": "Andrija Petrovic <andrija.hers@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/social-libs/dbopsmixins/issues"
+  },
+  "homepage": "https://github.com/social-libs/dbopsmixins#readme"
+}
