@@ -114,7 +114,7 @@ function createUpdateUserProfileJob (execlib, mylib) {
     if (hint.needsuserrecord) {
       actres = hint.cb(psobj.userrecord);
     } else {
-      actres = hint();
+      actres = hint.cb();
     }
     if (q.isThenable(actres)) {
       psobj.promises.push(actres);
